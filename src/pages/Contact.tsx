@@ -17,7 +17,7 @@ export default function Contact() {
 
      try {
     const response = await fetch(
-      "http://localhost/portfolio-api/api/contact.php",
+        "https://yagyamadai64.great-site.net/api/contact.php",
       {
         method: "POST",
         headers: {
