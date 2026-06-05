@@ -29,6 +29,7 @@ export default function Contact() {
     )
 
     const result = await response.json()
+       console.log("API Response:", result)
 
     if (result.success) {
       setSubmitted(true)
