@@ -6,18 +6,18 @@ const projects = [
     title: 'E-Commerce Platform',
     description:
       'A full-stack e-commerce application with user authentication, product management, and payment integration.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+    technologies: ['HTML,CSS,JS', 'Tailwind CSS', 'MYSQL', 'PHP'],
+    github: 'https://github.com/yagyamadai64',
+    live: 'https://yagyamadai.com.np/food/index.php',
     featured: true,
   },
   {
-    title: 'Task Management App',
+    title: 'CryptoVerse',
     description:
       'A collaborative task management tool with real-time updates, drag-and-drop functionality, and team features.',
-    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Socket.io'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+    technologies: ['HTML,CSS,JS,','Next.js', 'Bootstrap', 'MYSQL', 'PHP'],
+    github: 'https://github.com/yagyamadai64/Cryptoverse1',
+    live: 'https://cryptoverse1.vercel.app/',
     featured: true,
   },
   {
@@ -112,7 +112,7 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
-                      className="text-muted-foreground hover:text-primary transition-colors"
+                      className="px-3 py-1 bg-green-500 text-white text-sm rounded-full flex items-center gap-1"
                       aria-label="Live demo"
                     >
                       <ExternalLink size={22} />
